@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-texto{
+   text-align: center;
+}
+.imagen{
+    margin: 0% 10px;
+}
