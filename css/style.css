@@ -1,14 +1,42 @@
 body{
-    background-color: bisque;
+    background-image: url(/img/fondo-arte-digital-japon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .wrap{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.wrap-imagen-titulo{
+    background-color: rgba(240, 248, 255, 90%);
+    height: 140px;
+
+}
 .wrap-texto{
    text-align: center;
+   color: aliceblue;
 }
-.imagen{
-    margin: 0% 10px;
+h1{
+    color: aliceblue;
+    text-align: left;
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightgreen, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+    width: 190px;
+    height: auto;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 1px solid lightseagreen;
+    transform: rotate(1deg);
+}
+div.descripcion{
+    text-align: center;
+    color: aliceblue;
 }

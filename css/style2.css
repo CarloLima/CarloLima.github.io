@@ -1,9 +1,24 @@
 body{
-    background-color: bisque;
+    background-image: url(/img/fondo-arte-digital-japon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+.wrap-imagen-titulo{
+    background-color: rgba(240, 248, 255, 90%);
+    height: 140px;
+}
 .wrap-texto{
-    text-align: left;
-    width: 50%;
+    text-align: center;
+    color: aliceblue;
 }
-
+.wrap-enlaces{
+    color: aliceblue;
+}
+.wrap-imagen{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    margin: 0% 10px;
+    
+}

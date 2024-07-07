@@ -8,8 +8,13 @@ body{
     height: 140px;
 
 }
-.wrap-texto{
+.wrap-texto-color{
     color: aliceblue;
+}
+
+.wrap-texto{
+    text-align: left;
+    width: 50%;
 }
 .wrap-enlaces{
     color: aliceblue;
