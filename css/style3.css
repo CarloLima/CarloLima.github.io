@@ -11,6 +11,22 @@ body{
 .wrap-texto{
     color: aliceblue;
 }
+#app{
+    height: 140px;
+    width: 115px;
+    border: 12px solid black;
+    border-radius: 5px;
+}
+#app form{
+    height: 100%;
+    width: 100%;
+    background-color: darkgrey;
+}
+
+#app input[type=textfield] {
+    height: 25%;
+    width: 83%;
+}
 .wrap-enlaces{
     color: aliceblue;
 }
